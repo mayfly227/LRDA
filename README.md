@@ -6,7 +6,8 @@ The `Texture/` directory contains the texture presented in the paper. Import it 
 
 To generate a texture matching the paper's setup without training, run `inference.py`. For inference, you only need PyTorch and Diffusers, the SDXL-Turbo model weights, and the pretrained LoRA weights. Set `LORA_PATH` in `inference.py` to the downloaded LoRA weights, and pass the SDXL-Turbo model directory with `--model_path`.
 
-Download the pretrained LoRA weights from [Baidu Netdisk](https://pan.baidu.com/s/REPLACE_WITH_BAIDU_LINK) or [Google Drive](https://drive.google.com/file/d/REPLACE_WITH_FILE_ID/view). Replace these placeholder links with the actual download URLs.
+Download the pretrained LoRA weights from [Baidu Netdisk](https://pan.baidu.com/s/1fGS8bTM4ylituxTTaxbmXA?pwd=4e8u) or [Google Drive](https://drive.google.com/file/d/1z-Czk6WrOMxUq-kXYR5JGs3IWZws0sj9/view?usp=sharing).
+
 
 ## 2. Installation
 
@@ -90,3 +91,5 @@ outputlora/example/
 ├── pytorch_lora_weights.safetensors
 └── checkpoint-*/        # Training checkpoints and their textures
 ```
+
+If you have any questions, please contact us at dengkang#mail.ustc.edu.cn(# replace to @).
